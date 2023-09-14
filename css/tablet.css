@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+  /* Banner */
+  #banner::before {
+    background-size: auto;
+    background-position: center;
+  }
+  /* Navbar */
+  /* Jobs */
+  #job-info .container {
+    columns: 2;
+    column-gap: 2rem;
+  }
+  .box {
+    break-inside: avoid;
+  }
+  /* Certificate */
+  .body-detail:last-child {
+  }
+
+  /* Projects */
+  .projects .detail .head .name {
+  }
+
+  .positions {
+    display: flex;
+    flex-direction: column;
+  }
+  .time-position .position:last-child {
+    display: block;
+    margin-left: 58px;
+  }
+  /* Footer */
+  #footer .container ul {
+    padding: 0;
+    margin: 0;
+  }
+  #footer .container ul li {
+    padding: 0;
+  }
+  #footer .container ul li i {
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #job-info .container {
+    columns: 2;
+    column-gap: 2rem;
+  }
+  .box {
+    break-inside: avoid;
+  }
+  /* Jobs */
+  .time-position .position:last-child {
+    display: block;
+    margin-left: 58px;
+  }
+}
